@@ -104,9 +104,25 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
+  color: white;
   padding: 2em;
   height: 100%;
+}
+
+header {
+  font-family: 'Lora', sans-serif;
+  font-size: 2em;
+  padding: 1em 0 0 0;
+}
+
+.bio {
+  font-size: 1.7em;
+  border-bottom: 1px solid grey;
+}
+
+.bio span {
+  font-family: 'Lora', sans-serif;
 }
 
 .wrapper {
@@ -114,6 +130,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 1em 0;
 }
 
 .div-1, .div-2, .div-3 {
@@ -131,6 +148,25 @@ body {
 .wrapper span {
   font-family: 'Lora', sans-serif;
   font-size: 1.3em;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding: 1em 0 0 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 15px 0 0;
+}
+
+footer img {
+  height: 30px;
 }
 
 /* ==========================================================================
